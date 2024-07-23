@@ -38,11 +38,11 @@
     <td>add comment</td>
   </tr>
   <tr>
-    <td>Создайте ветку feature1, добавьте константу <code>a</code> в index.js<br> и комментарий</td>
+    <td>Создайте ветку feature1, добавьте константу <code>a</code> в index.js<br/> и комментарий</td>
     <td>C</td>
     <td>feature1</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 1;<br>const a = 1;</code></pre></td>
+    <td><pre><code>// Bug count 1<br/>const a = 1;</code></pre></td>
     <td>add variable a and comment</td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@
     <td>D</td>
     <td>develop</td>
     <td>merge commit</td>
-    <td><pre><code>// Bug count 1<br>const a = 1;</code></pre></td>
+    <td><pre><code>// Bug count 1<br/>const a = 1;</code></pre></td>
     <td>Merge branch ‘feature1’ into ‘develop’</td>
   </tr>
   <tr>
@@ -58,15 +58,15 @@
     <td>E</td>
     <td>develop</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 1<br>const a = 1;<br>console.log(a);</code></pre></td>
+    <td><pre><code>// Bug count 1<br/>const a = 1;<br/>console.log(a);</code></pre></td>
     <td>add console.log</td>
   </tr>
   <tr>
-    <td>Создайте ветку feature2, измените переменную <code>a</code> в index.js<br> и комментарий</td>
+    <td>Создайте ветку feature2, измените переменную <code>a</code> в index.js<br/> и комментарий</td>
     <td>F</td>
     <td>feature2</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 2<br>const a = 2;<br>console.log(a);</code></pre></td>
+    <td><pre><code>// Bug count 2<br/>const a = 2;<br/>console.log(a);</code></pre></td>
     <td>change variable a</td>
   </tr>
   <tr>
@@ -74,15 +74,15 @@
     <td>G</td>
     <td>develop</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 0<br>const a = 2;<br>console.log(a);</code></pre></td>
+    <td><pre><code>// Bug count 0<br/>const a = 2;<br/>console.log(a);</code></pre></td>
     <td>fix bug</td>
   </tr>
   <tr>
-    <td>Проведите ребейз коммита F1 на коммит G,<br> решите конфликты слияния (чтобы счетчик багов стал равен 1)</td>
+    <td>Проведите ребейз коммита F1 на коммит G,<br/> решите конфликты слияния (чтобы счетчик багов стал равен 1)</td>
     <td>F1</td>
     <td>feature2</td>
     <td>rebase commit</td>
-    <td><pre><code>// Bug count 1<br>const a = 2;<br>console.log(a);</code></pre></td>
+    <td><pre><code>// Bug count 1<br/>const a = 2;<br/>console.log(a);</code></pre></td>
     <td>rebase ‘feature2’</td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@
     <td>H</td>
     <td>develop</td>
     <td>merge commit</td>
-    <td><pre><code>// Bug count 1<br>const a = 2;<br>console.log(a);</code></pre></td>
+    <td><pre><code>// Bug count 1<br/>const a = 2;<br/>console.log(a);</code></pre></td>
     <td>Merge branch ‘feature2’ into ‘develop’</td>
   </tr>
   <tr>
@@ -98,7 +98,7 @@
     <td>I</td>
     <td>develop</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 0<br>const a = 2;<br>console.log(a);</code></pre></td>
+    <td><pre><code>// Bug count 0<br/>const a = 2;<br/>console.log(a);</code></pre></td>
     <td>fix bug</td>
   </tr>
   <tr>
@@ -106,15 +106,15 @@
     <td>J</td>
     <td>master</td>
     <td>merge commit</td>
-    <td><pre><code>// Bug count 0<br>const a = 2;<br>console.log(a);</code></pre></td>
+    <td><pre><code>// Bug count 0<br/>const a = 2;<br/>console.log(a);</code></pre></td>
     <td>Merge branch ‘develop’ into ‘master’</td>
   </tr>
   <tr>
-    <td>Создайте ветку homework, выполните задания ниже:<br> на это у вас любое количество коммитов,<br> главное делать их в ветке homework,<br> называть коммиты необходимо как HW1, HW2 и т.д.,<br> сообщения коммитов должны быть осмысленными,<br> чтобы было понятно, что было изменено</td>
+    <td>Создайте ветку homework, выполните задания ниже:<br/> на это у вас любое количество коммитов,<br/> главное делать их в ветке homework,<br/> называть коммиты необходимо как HW1, HW2 и т.д.,<br/> сообщения коммитов должны быть осмысленными,<br/> чтобы было понятно, что было изменено</td>
     <td>HW1</td>
     <td>homework</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 0<br>const a = 2;<br>console.log(a);</code></pre></td>
+    <td><pre><code>// Bug count 0<br/>const a = 2;<br/>console.log(a);</code></pre></td>
     <td></td>
   </tr>
   <tr>
@@ -122,7 +122,7 @@
     <td>K</td>
     <td>master</td>
     <td>merge commit</td>
-    <td><pre><code>// Bug count 0<br>const a = 2;<br>console.log(a);</code></pre></td>
+    <td><pre><code>// Bug count 0<br/>const a = 2;<br/>console.log(a);</code></pre></td>
     <td></td>
   </tr>
 </table>
