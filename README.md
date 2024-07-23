@@ -34,7 +34,9 @@
     <td>B</td>
     <td>develop</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 0</code></pre></td>
+    <td><pre><code>
+// Bug count 0
+    </code></pre></td>
     <td>add comment</td>
   </tr>
   <tr>
@@ -42,7 +44,10 @@
     <td>C</td>
     <td>feature1</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 1<br/>const a = 1;</code></pre></td>
+    <td><pre><code>
+// Bug count 1
+const a = 1;
+    </code></pre></td>
     <td>add variable a and comment</td>
   </tr>
   <tr>
@@ -50,7 +55,10 @@
     <td>D</td>
     <td>develop</td>
     <td>merge commit</td>
-    <td><pre><code>// Bug count 1<br/>const a = 1;</code></pre></td>
+    <td><pre><code>
+// Bug count 1
+const a = 1;
+    </code></pre></td>
     <td>Merge branch ‘feature1’ into ‘develop’</td>
   </tr>
   <tr>
@@ -58,7 +66,11 @@
     <td>E</td>
     <td>develop</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 1<br/>const a = 1;<br/>console.log(a);</code></pre></td>
+    <td><pre><code>
+// Bug count 1
+const a = 1;
+console.log(a);
+    </code></pre></td>
     <td>add console.log</td>
   </tr>
   <tr>
@@ -66,7 +78,11 @@
     <td>F</td>
     <td>feature2</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 2<br/>const a = 2;<br/>console.log(a);</code></pre></td>
+    <td><pre><code>
+// Bug count 2
+const a = 2;
+console.log(a);
+    </code></pre></td>
     <td>change variable a</td>
   </tr>
   <tr>
@@ -74,7 +90,11 @@
     <td>G</td>
     <td>develop</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 0<br/>const a = 2;<br/>console.log(a);</code></pre></td>
+    <td><pre><code>
+// Bug count 0
+const a = 2;
+console.log(a);
+    </code></pre></td>
     <td>fix bug</td>
   </tr>
   <tr>
@@ -82,7 +102,11 @@
     <td>F1</td>
     <td>feature2</td>
     <td>rebase commit</td>
-    <td><pre><code>// Bug count 1<br/>const a = 2;<br/>console.log(a);</code></pre></td>
+    <td><pre><code>
+// Bug count 1
+const a = 2;
+console.log(a);
+    </code></pre></td>
     <td>rebase ‘feature2’</td>
   </tr>
   <tr>
@@ -90,7 +114,11 @@
     <td>H</td>
     <td>develop</td>
     <td>merge commit</td>
-    <td><pre><code>// Bug count 1<br/>const a = 2;<br/>console.log(a);</code></pre></td>
+    <td><pre><code>
+// Bug count 1
+const a = 2;
+console.log(a);
+    </code></pre></td>
     <td>Merge branch ‘feature2’ into ‘develop’</td>
   </tr>
   <tr>
@@ -98,7 +126,11 @@
     <td>I</td>
     <td>develop</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 0<br/>const a = 2;<br/>console.log(a);</code></pre></td>
+    <td><pre><code>
+// Bug count 0
+const a = 2;
+console.log(a);
+   </code></pre></td>
     <td>fix bug</td>
   </tr>
   <tr>
@@ -106,7 +138,11 @@
     <td>J</td>
     <td>master</td>
     <td>merge commit</td>
-    <td><pre><code>// Bug count 0<br/>const a = 2;<br/>console.log(a);</code></pre></td>
+    <td><pre><code>
+// Bug count 0
+const a = 2;
+console.log(a);
+    </code></pre></td>
     <td>Merge branch ‘develop’ into ‘master’</td>
   </tr>
   <tr>
@@ -114,7 +150,11 @@
     <td>HW1</td>
     <td>homework</td>
     <td>commit</td>
-    <td><pre><code>// Bug count 0<br/>const a = 2;<br/>console.log(a);</code></pre></td>
+    <td><pre><code>
+// Bug count 0
+const a = 2;
+console.log(a);
+    </code></pre></td>
     <td></td>
   </tr>
   <tr>
@@ -122,7 +162,11 @@
     <td>K</td>
     <td>master</td>
     <td>merge commit</td>
-    <td><pre><code>// Bug count 0<br/>const a = 2;<br/>console.log(a);</code></pre></td>
+    <td><pre><code>
+// Bug count 0
+const a = 2;
+console.log(a);
+    </code></pre></td>
     <td></td>
   </tr>
 </table>
