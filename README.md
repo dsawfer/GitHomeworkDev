@@ -4,6 +4,8 @@
 
 ## Задание 1: Git
 
+![git.png](assets/git.png)
+
 <table>
   <tr>
     <th>Действия</th>
